@@ -1,0 +1,136 @@
+
+.competence {
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.4s ease-in;
+    transition-property: opacity, transform;
+}
+
+.competence-visible {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
+.competence-div {
+    position: relative;
+    width: calc(50% - 80px);
+    padding: 30px 40px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.competence-div-left {
+    text-align: right;
+}
+
+.competence-div-left::after {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: #000C66;
+    right: -15px;
+    top: calc(50% - 15px);
+}
+
+.competence-div-left::before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    border-radius: 5px;
+    width: 10px;
+    height: 70px;
+    background:#000C66;
+    right: -5px;
+    bottom: -35px;
+}
+
+.competence-div-right::after {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background:#000C66;
+    left: -15px;
+    top: calc(50% - 15px);
+}
+
+.competence-div-right::before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    border-radius: 5px;
+    width: 10px;
+    height: 70px;
+    background:#000C66;
+    left: -5px;
+    bottom: -35px;
+}
+
+.competence-div-last::before {
+    content: none;
+}
+
+.competence-div-right {
+    text-align: left;
+    margin-left: 50%;
+}
+
+.competence-div h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.competence-div h3 {
+    margin: 0;
+    font-weight:600;
+    color: #870007;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .competence-div {
+        width: calc(100% - 80px);
+    }
+
+    .competence-div-left, .competence-div-right  {
+        text-align: left;
+        margin-left: 0;
+    }
+
+    .competence-div-left::before, .competence-div-right::before {
+        position: absolute;
+        content: '';
+        display: inline-block;
+        border-radius: 5px;
+        width: 10px;
+        height: 70px;
+        background:#000C66;
+        left: -5px;
+        bottom: -35px;
+    }
+
+    .competence-div-left::after, .competence-div-right::after {
+        position: absolute;
+        content: '';
+        display: inline-block;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        background: #000C66;
+        left: -15px;
+        top: calc(50% - 15px);
+    }
+
+    .competence-div-last::before {
+        content: none;
+    }
+}

@@ -1,0 +1,12 @@
+
+.about {
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.4s ease-in;
+    transition-property: opacity, transform;
+}
+
+.about-visible {
+    opacity: 1;
+    transform: translateY(0px);
+}

@@ -1,0 +1,46 @@
+.scroll-to-top-button {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    font-weight: bold;
+    position: fixed;
+    left: 50%;
+    bottom: 10px;
+    border: none;
+    background: transparent;
+    transition: transform 0.2s linear;
+    color: #fff;
+    background: #870007;
+    z-index: 100;
+  }
+  
+  .scroll-to-top-button-open:hover {
+    transform: translate(-50%, -5px);
+  }
+  
+  
+  .scroll-to-top-button svg {
+    margin-top: -15px;
+  }
+  
+  .scroll-to-top-button p {
+    margin-top: -20px;
+    font-size: 12px;
+  }
+  
+  .scroll-to-top-button-closed {
+    transform: translate(-50%, 100px);
+  }
+  
+  .scroll-to-top-button-open {
+    transform: translate(-50%, 0px);
+  }
+  
+  .color-red {
+    stroke: #fff;
+    fill: #fff;
+  }
+  
+  .scroll-to-top-button:focus {
+    outline: none;
+  }

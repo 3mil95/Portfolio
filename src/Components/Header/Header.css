@@ -1,0 +1,123 @@
+
+
+.header h1 {
+    position: relative;
+    background: #333;
+    bottom: 170px;
+    left: 280px;
+    margin: 0px;
+    font-size: 70px;
+    pointer-events: none;
+    height: 0px;
+}
+
+.header img {
+    position: relative;
+    bottom: 220px;
+    left: 50px;
+    margin: 0px;
+    pointer-events: none;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.header {
+    color: #fff;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 2px 2px #888888;
+    width: 100vw;
+}
+
+.nav-links-div button {
+    transition: all 200ms linear;
+    border: none;
+    color: #00005b;
+    background: transparent;
+    font-weight: bold;
+    font-size: 16px;
+    width: 150px;
+    height: 40px;
+}
+
+.nav-div {
+    border-top: 5px solid #00005b;
+    margin-top: -210px;
+}
+
+.nav-links-div {
+    padding-left: 60px;
+    transition: all 0s ease-in-out  
+}
+
+.nav-button {
+    display: none;
+    height: 40px;
+    font-weight: bold;
+    width: 40px;
+    font-size: 18px;
+    border: none;
+    color: #00005b;
+    background: transparent;
+}
+
+
+.header button:hover { 
+    background: #870007;
+    color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+    .nav-links-div {
+        flex-direction: column;
+        position: absolute;
+        transform-origin: top;
+        padding: 0px;
+        width: 100vw;
+        background: #fff;
+        transition: all .2s ease-in-out;
+        z-index: 5;
+    }
+
+    .nav-links-div button {
+        width: 100%;
+    }
+
+    .nav-links-div-close {
+        transform: scaleY(0);
+    }
+
+    .nav-button {
+        display: inline;
+    }
+
+    .header h1 {
+        position: relative;
+        bottom: 150px;
+        line-height: 1;
+        left: 0px;
+        width: 95%;
+        font-size: 70px;
+        pointer-events: none;
+        height: 0px;
+        text-align: center;
+    }
+
+    .header img {
+        position: relative;
+        bottom: 360px;
+        left: calc(50% - 100px);
+        pointer-events: none;
+        height: 200px;
+        border-radius: 50%;
+    }
+
+    .header button:hover { 
+        color: #00005b;
+        background: #fff;
+    }
+}
+
+.header button:focus { 
+    outline: none;
+}

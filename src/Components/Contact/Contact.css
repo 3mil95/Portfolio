@@ -1,0 +1,69 @@
+.contact {
+    background: #fff;
+    display: flex;
+    height: 500px;
+}
+
+.contact-left {
+    width: 50%;
+    height: 100%;
+    background-image: url('../../Content/Images/groupPic1.jpg');
+    background-size: cover;
+}
+
+
+.blue-filter {
+    background: rgba(5,11,30, 0.9);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.contact-right {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.contact-link {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;  
+    text-decoration: none;
+}
+
+.contact-right p, .contact-right h1 {
+    color: #050A30;
+}
+
+.contact-link p {
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+    color: #050A30;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .contact {
+        background: #fff;
+        display: inline;
+       
+    }
+
+    .contact-left {
+        width: 100%;
+        height: 500px;
+    }
+    
+    .contact-right {
+        width: 100%;
+        height: 500px;
+    }
+}
