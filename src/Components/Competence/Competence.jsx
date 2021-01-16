@@ -33,7 +33,7 @@ class Competence extends Component {
         return (
             <div className={classString} id="competence">
                 <h1>Education</h1>
-                <div>
+                <div style={{width: '100%' ,maxWidth:'1200px'}}>
                     { competence.map((comp, i) => {
 
                         let classString = "competence-div competence"

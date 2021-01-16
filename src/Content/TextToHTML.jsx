@@ -1,11 +1,11 @@
 import React from 'react';
 
 
-const about = `Jag läser sjätte terminen på medieteknikprogrammet på KTH. Jag har under tiden på KTH läst kurser inom programmering (python, java, go och matlab) och har fått ett intresse för det. Jag har också gjort en del egna projekt vid sidan av studierna, bland annat har jag gjort lite spel med Unity och musikapplikationer med JUCE och C++. Jag är lättlärd speciellt när det kommer till saker jag är intresserad av. Till sommaren skulle jag vilja pröva på hur det är att jobba med programmering, för att se hur det jag har lärt mig kan användas i arbetslivet och för att jag hoppas på att mina kunskaper ska kunna var till nytta för er.
+const about = `I am at the end of my studies in the media technology program at KTH, where I am studying a master's degree in computer science, with a focus on computer graphics and visualization.
 
-På fritiden håller jag på med musik. Jag har spelat gitarr i flera år och komponerar också lite grann. Jag är också intresserad av matlagning och helst utan recept då jag gillar att hitta på och testa nya smaker. Jag gillar att göra saker där jag kan var kreativ. 
+I like to be creative and create things. During my studies, I have done many of my own projects. Among other things, I have made some games with Unity. I have also created some websites with React.js with associated backends in Flask and Node.js and some basic mobile apps with Java and React-native.
 
-Jag har inte så mycket erfarenhet av webbprogrammering, men nyligen har börja testa på det med lite egna projekt. Jag skulle därför vara intresserad av att jobb hos er under sommaren. Om det är något du tycker jag ska kolla upp lite om, t.ex. något programmeringsspråk, innan göra jag gärna det. Här gärna av dig om det är något mer du undra över.`
+In my spare time I play music. I have been playing guitar for several years and also compose a bit. I am also interested in cooking and preferably without a recipe as I like to invent and test new flavors.`
 
 
 function createHTML(text) {
