@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0e7614f9.chunk.css",
-    "main.js": "/portfolio/static/js/main.f544a143.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f544a143.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.45ca49a9.chunk.css",
+    "main.js": "/portfolio/static/js/main.d40ee9a6.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d40ee9a6.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.b649af6b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.b649af6b.js.map",
-    "static/js/2.e0e76dff.chunk.js": "/portfolio/static/js/2.e0e76dff.chunk.js",
-    "static/js/2.e0e76dff.chunk.js.map": "/portfolio/static/js/2.e0e76dff.chunk.js.map",
+    "static/js/2.07758de3.chunk.js": "/portfolio/static/js/2.07758de3.chunk.js",
+    "static/js/2.07758de3.chunk.js.map": "/portfolio/static/js/2.07758de3.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.38cccf6a39224be7db1fc4d5f8b6837e.js": "/portfolio/precache-manifest.38cccf6a39224be7db1fc4d5f8b6837e.js",
+    "precache-manifest.b90893995b06fd2dc6d3d621c76e6c6e.js": "/portfolio/precache-manifest.b90893995b06fd2dc6d3d621c76e6c6e.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.0e7614f9.chunk.css.map": "/portfolio/static/css/main.0e7614f9.chunk.css.map",
-    "static/js/2.e0e76dff.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e0e76dff.chunk.js.LICENSE.txt",
+    "static/css/main.45ca49a9.chunk.css.map": "/portfolio/static/css/main.45ca49a9.chunk.css.map",
+    "static/js/2.07758de3.chunk.js.LICENSE.txt": "/portfolio/static/js/2.07758de3.chunk.js.LICENSE.txt",
     "static/media/Github.svg": "/portfolio/static/media/Github.61a0ae0a.svg",
     "static/media/Linkedin.svg": "/portfolio/static/media/Linkedin.7d615392.svg",
     "static/media/Promillekollen.png": "/portfolio/static/media/Promillekollen.8521f5bd.png",
     "static/media/greencetes.gif": "/portfolio/static/media/greencetes.1251f6c3.gif",
-    "static/media/Contact.css": "/portfolio/static/media/groupPic1.055f33f4.jpg"
+    "static/media/Contact.css": "/portfolio/static/media/groupPic1.055f33f4.jpg",
+    "static/media/snakeTD.gif": "/portfolio/static/media/snakeTD.af002186.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.b649af6b.js",
-    "static/js/2.e0e76dff.chunk.js",
-    "static/css/main.0e7614f9.chunk.css",
-    "static/js/main.f544a143.chunk.js"
+    "static/js/2.07758de3.chunk.js",
+    "static/css/main.45ca49a9.chunk.css",
+    "static/js/main.d40ee9a6.chunk.js"
   ]
 }
